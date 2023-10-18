@@ -1,0 +1,55 @@
+.hero {
+  width: 100vw;
+  height: 850px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60')
+}
+
+.main-cont {
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.head1 {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+
+.sub-head1 {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(0, 153, 255);
+}
+
+.quote h1 {
+  font-size: 37px;
+  color: rgb(221, 0, 255);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.quote {
+  margin-top: 200px;
+  margin-left: 0px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  align-items: center;
+  border: 1px solid white;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  background: linear-gradient(rgb(255, 255, 255), transparent),
+    linear-gradient(to top left, rgb(0, 0, 0), transparent),
+    linear-gradient(to top right, rgb(255, 255, 255), transparent);
+  background-blend-mode: screen;
+  opacity: 10;
+
+  transition: opacity 1s ease-in-out;
+  border-radius: 25px;
+}
